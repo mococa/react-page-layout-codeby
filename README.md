@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Codeby Page Layout Test in React
+## About
+It was given a PDF with the desired layout, the fonts and the images used.
+I'm using React so I can practice it.
 
 ## Available Scripts
 

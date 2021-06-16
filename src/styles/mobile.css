@@ -1,0 +1,21 @@
+@media (max-width:600px) {
+    header {
+        grid-gap: unset;
+        justify-content: space-between;
+        gap: unset;
+        padding: 35px 20px;
+    }
+    header h1 {
+        width: 100%;
+        font-size: 300%;
+    }
+    .categories {
+        padding: 50px 20px;
+    }
+    .categories-container {
+        gap: 35px;
+    }
+    .categories-container div {
+        width: 100%;
+    }
+}
