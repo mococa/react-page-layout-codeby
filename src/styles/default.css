@@ -7,6 +7,8 @@
 
 :root {
     --black: #2d2d2d;
+    --dark-blue: #005499;
+    --blue: #0088ed;
 }
 
 html {
@@ -29,4 +31,8 @@ html {
 
 h1 {
     font-size: 360%;
+}
+
+h2 {
+    font-size: 200%;
 }

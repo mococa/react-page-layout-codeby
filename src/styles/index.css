@@ -40,7 +40,7 @@ header button:hover {
 }
 
 .categories {
-    padding: 50px 80px;
+    padding: 50px 100px 0;
 }
 
 .categories>h1,
@@ -63,8 +63,46 @@ h4 {
     flex-flow: column;
     background-clip: padding-box;
     overflow: hidden;
-    background-size: cover;
+    background-size: 100%;
     align-items: flex-start;
     padding: 20px;
     color: white;
+    transition: background-size 200ms ease-in-out;
+}
+
+.categories-container div:hover {
+    background-size: 102%;
+}
+
+.growth-plans {
+    padding: 50px 100px 550px;
+}
+
+.growth-plans-container {
+    display: flex;
+    height: 500px;
+    align-items: flex-end;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform: translateY(-91px);
+    gap: 40px;
+    padding: 0 100px;
+}
+
+.single-growth-plan {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    color: white;
+    background-color: var(--blue);
+    justify-content: space-between;
+}
+
+.single-growth-plan .top {
+    background-color: var(--dark-blue);
+}
+
+.single-growth-plan div {
+    padding: 20px;
 }

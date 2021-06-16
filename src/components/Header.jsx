@@ -6,7 +6,7 @@ function Header() {
             <img src={process.env.PUBLIC_URL+"/img/logo.png"} alt="Logo" />
             <h1>we have ideas to
 growth your business</h1>
-            <button onClick={()=>window.location.href="#categories"}>SEE NOW</button>
+            <button onClick={()=>window.location.href="#growth-plans"}>SEE NOW</button>
         </header>
     )
 }
