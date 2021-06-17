@@ -70,6 +70,15 @@ h4 {
     transition: 200ms ease-in-out;
 }
 
+.categories-container div * {
+    transition: 0.3s;
+    transform-origin: left;
+}
+
+.categories-container div:hover * {
+    transform: scale(0.98);
+}
+
 .categories-container div:hover:after {
     width: 100%;
 }
