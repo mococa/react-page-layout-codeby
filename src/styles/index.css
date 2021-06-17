@@ -119,3 +119,21 @@ h4 {
 .single-growth-plan div {
     padding: 20px;
 }
+
+footer {
+    padding: 20px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a img {
+    height: 50px;
+}
