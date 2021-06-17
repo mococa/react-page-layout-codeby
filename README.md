@@ -3,6 +3,13 @@
 It was given a PDF with the desired layout, the fonts and the images used.
 I'm using React so I can practice it.
 
+Used only flex-box (My favorite way of positioning elements).
+
+Layout: [link](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5318c33f-c0f0-4106-8758-cd1c72e48e87/teste-layout.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210616T024452Z&X-Amz-Expires=86400&X-Amz-Signature=85849e5742366c8d585d31e634e85f338c62ea9a9924ae3900696f34e3f737ee&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D"teste-layout.pdf")
+
+
+Result: https://mococa.github.io/react-page-layout-codeby/
+
 ## Available Scripts
 
 In the project directory, you can run:
