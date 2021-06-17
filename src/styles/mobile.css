@@ -1,4 +1,4 @@
-@media (max-width:600px) {
+@media (max-width:656px) {
     header {
         grid-gap: unset;
         justify-content: space-between;
@@ -17,5 +17,9 @@
     }
     .categories-container div {
         width: 100%;
+        background-size: cover;
+    }
+    .categories-container div:hover {
+        background-size: cover;
     }
 }

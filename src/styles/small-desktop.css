@@ -1,0 +1,22 @@
+@media (max-width:1000px) {
+    .growth-plans {
+        padding: 50px 20px calc(300px * 3);
+    }
+    .growth-plans>h4 {
+        margin-bottom: calc(91px + 20px);
+    }
+    .growth-plans-container {
+        flex-wrap: wrap;
+        grid-gap: unset;
+        height: unset;
+        width: unset;
+        gap: 20px;
+        padding: 0 20px;
+        justify-content: center;
+    }
+    .single-growth-plan {
+        flex: 0;
+        flex-basis: calc(50% - 10px);
+        height: 300px!important;
+    }
+}
